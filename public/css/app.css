@@ -1,0 +1,56 @@
+/* General body styles */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f4f4f4;
+}
+
+
+header {
+  background-color: #d4bdbd;
+  padding: 5px 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(152, 107, 107);
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px; /* Reduced padding for better fit on smaller screens */
+  max-width: 90%; /* Adjusted max-width to fit within different screen sizes */
+  margin: 20px auto; /* Centered the main content with margins */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+main h2 {
+  color: #8c4f37b1;
+}
+
+main p {
+  color: #797373;
+  line-height: 1.6;
+}
