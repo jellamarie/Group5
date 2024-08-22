@@ -36,9 +36,9 @@ nav a:hover {
 }
 
 main {
-  padding: 20px; /* Reduced padding for better fit on smaller screens */
-  max-width: 90%; /* Adjusted max-width to fit within different screen sizes */
-  margin: 20px auto; /* Centered the main content with margins */
+  padding: 20px; 
+  max-width: 90%; 
+  margin: 20px auto; 
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -53,4 +53,8 @@ main h2 {
 main p {
   color: #797373;
   line-height: 1.6;
+
+}
+.image{
+  margin-top: 50px;
 }

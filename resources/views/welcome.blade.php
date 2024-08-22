@@ -18,31 +18,35 @@
         </div>
     </header>
     <main>
+    <img class="image" src="{{ asset('Images/cuties.jpg') }}" alt="Description of Image" style="float: right; max-width: 100%; height: 250px; margin-left: 20px;"/>
         <h2>How to Raise Fur Babies</h2>
         <div align="left">
     <p>
-        <span style="font-weight: bold;">Welcome to Fur Baby Central!</span> 
+        <span style="font-weight: bold;">Welcome to Fur Baby Tips!</span> 
         <br>
-        At Fur Baby Central, we believe that every pet deserves a loving, happy, and healthy life. 
+        We believe that every pet deserves a loving, happy, and healthy life. 
         Whether you’re a seasoned pet parent or a first-time fur baby owner, 
         we’re here to guide you through the joys and responsibilities of raising your beloved companion. <br><br>
 
         <span style="font-weight: bold;">Why Raising Fur Babies Matters</span> 
         <br>
-        Our furry friends bring endless joy, love, and companionship into our lives. 
-        They rely on us for their well-being, happiness, and safety. From choosing the right
-        nutrition to providing plenty of exercise and affection, every aspect of their care 
-        plays a crucial role in their overall health and happiness. <br><br>
+        Raising fur babies is a deeply rewarding experience that brings immense joy, love, and companionship into your life.
+        From the moment you bring them home, they become a cherished part of your family, relying on you for their well-being,
+        happiness, and safety. The foundation of their care involves creating a comfortable and safe environment where they can thrive.
+        Establishing consistent routines and providing balanced nutrition are crucial steps in ensuring their overall health and happiness.
+        <br><br>
 
-        <span style="font-weight: bold;">What You'll Find Here</span>
-        <br>
-        Nutrition and Health: Learn how to choose the best food, understand their dietary needs, and keep them healthy with regular veterinary care.
-        Exercise and Enrichment: Discover fun and effective ways to keep your fur babies physically and mentally stimulated.
-        Grooming Tips: Find out how to maintain their coat and keep them looking and feeling their best.
-        Training and Socialization: Get advice on teaching commands, proper behavior, and how to help your pet become a well-adjusted member of your family.
-        Safety and Comfort: Create a safe and cozy environment that caters to their needs and keeps them happy and secure.
+        In addition to meeting their basic needs, it's important to focus on their physical activity, mental stimulation, and grooming.
+        Regular exercise and interactive play keep your fur baby fit and engaged, reducing the likelihood of behavioral issues.
+        Grooming is another vital aspect of care, helping to maintain their hygiene and appearance while also providing an 
+        opportunity to bond through gentle touch. Training with positive reinforcement fosters good behavior and strengthens the
+        connection between you and your pet.
+        <br><br>
 
-    
+        Lastly, raising fur babies requires attention to their emotional well-being. Pets are sensitive to their owner's moods
+        and environments, so creating a loving and positive atmosphere is essential for their happiness. By taking the time to
+        cuddle, play, and simply be present with your pet, you ensure they feel loved and valued. This journey of raising a fur baby is filled with mutual respect and learning, ultimately enriching your life in countless ways.
+
     </p>
 </div>
 
