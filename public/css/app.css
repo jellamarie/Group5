@@ -1,25 +1,24 @@
 /* Global Styles */
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #e7e7e7;
 }
 
 body.homepage {
   background-image: url('/Images/bg.jpg');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center content horizontally */
-  justify-content: center; /* Center content vertically */
-}
-
-body.homepage .homepage-title {
-  font-size: 4rem; /* Adjust the size as needed */
+  align-items: center;
+  justify-content: center;
 }
 
 /* Header Styles */
@@ -45,6 +44,10 @@ header {
 h1 {
   font-size: 24px;
   color: #333;
+}
+
+body.homepage .homepage-title {
+  font-size: 4rem;
 }
 
 main h2 {
@@ -73,9 +76,9 @@ main {
   padding: 20px;
   max-width: 90%;
   margin: 100px auto 20px auto;
-  background-color: transparent; 
-  border-radius: 8px; 
-  box-shadow: none; 
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: none;
   text-align: center;
 }
 
@@ -89,15 +92,24 @@ main.centered-content {
   margin-top: 100px;
 }
 
+main.contact-page {
+  padding: 100px 20px 20px;
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
 /* Centered Content Styles */
 .centered-content {
-  position: absolute; /* Allows positioning relative to the viewport */
-  top: 40%; /* Moves the text container down by 50% of the viewport height */
+  position: absolute;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Centers the container horizontally and vertically */
+  transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
-
 }
 
 /* Image Styles */
@@ -114,9 +126,93 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 button:hover {
-  background-color: rgb(181, 141, 141); 
+  background-color: rgb(181, 141, 141);
 }
 
+/* Social Media Styles */
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* Message Form Styles */
+.message-form {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.message-form h2 {
+  font-size: 22px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.message-form .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.message-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  resize: none; 
+}
+
+.message-form button {
+  padding: 10px 20px;
+  background-color: rgb(152, 107, 107);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.message-form button:hover {
+  background-color: rgb(181, 141, 141);
+}
+
+/* Footer Styles */
+footer {
+  background-color: #a89292;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin-top: auto; 
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

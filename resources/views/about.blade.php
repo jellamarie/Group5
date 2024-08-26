@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - My Website</title>
+    <title>About Us - Fur Baby Tips</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 
 <body>
     <header>
         <div class="header-container">
-        <h1>Fur Baby</h1>
+        <h1>Fur Baby Tips</h1>
             <nav>
                 <a href="{{ url('/') }}">Home</a>
-                <a href="{{ url('/about') }}">About</a>
+                <a href="{{ url('/about') }}">About Us</a>
                 <a href="{{ url('/contact') }}">Contact</a>
             </nav>
         </div>
@@ -85,5 +85,11 @@
             </p>
         </div>
     </main> 
+
+    <footer>
+    <div class="footer-container">
+            <p>&copy; 2024 Fur Baby Tips. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
