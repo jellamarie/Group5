@@ -1,16 +1,38 @@
-/* General body styles */
+/* Global Styles */
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background-color: #f4f4f4;
 }
 
+body.homepage {
+  background-image: url('/Images/bg.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+}
 
+body.homepage .homepage-title {
+  font-size: 4rem; /* Adjust the size as needed */
+}
+
+/* Header Styles */
 header {
   background-color: #d4bdbd;
-  padding: 5px 50px;
+  padding: 10px 50px;
   border-bottom: 1px solid #ddd;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 .header-container {
@@ -19,11 +41,22 @@ header {
   align-items: center;
 }
 
+/* Typography Styles */
 h1 {
   font-size: 24px;
   color: #333;
 }
 
+main h2 {
+  color: #8c4f37b1;
+}
+
+main p {
+  color: #797373;
+  line-height: 1.6;
+}
+
+/* Navigation Styles */
 nav a {
   text-decoration: none;
   color: rgb(152, 107, 107);
@@ -35,26 +68,55 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Main Content Styles */
 main {
-  padding: 20px; 
-  max-width: 90%; 
-  margin: 20px auto; 
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 90%;
+  margin: 100px auto 20px auto;
+  background-color: transparent; 
+  border-radius: 8px; 
+  box-shadow: none; 
   text-align: center;
 }
 
-
-main h2 {
-  color: #8c4f37b1;
+main.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(91vh - 100px);
+  text-align: center;
+  margin-top: 100px;
 }
 
-main p {
-  color: #797373;
-  line-height: 1.6;
+/* Centered Content Styles */
+.centered-content {
+  position: absolute; /* Allows positioning relative to the viewport */
+  top: 40%; /* Moves the text container down by 50% of the viewport height */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the container horizontally and vertically */
+  text-align: center;
+  width: 100%;
 
 }
-.image{
+
+/* Image Styles */
+.image {
   margin-top: 50px;
 }
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  background-color: rgb(152, 107, 107);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(181, 141, 141); 
+}
+

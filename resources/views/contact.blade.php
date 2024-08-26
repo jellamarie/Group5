@@ -6,17 +6,18 @@
     <title>Content - My Website</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
-<body>
 <header>
-        <div class="header-container">
-            <h1>Fur Baby</h1>
+    <div class="header-container">
+        <h1>Fur Baby</h1>
             <nav>
                 <a href="{{ url('/') }}">Home</a>
-                <a href="{{ url('resources/views/about.blade.php') }}">About</a>
-                <a href="{{ url('resources/views/content.blade.php') }}">Content</a>
+                <a href="{{ url('/about') }}">About</a>
+                <a href="{{ url('/contact') }}">Contact</a>
             </nav>
         </div>
     </header>
+<body>
+
     <main>
         <h2>References:</h2>
         <p>
