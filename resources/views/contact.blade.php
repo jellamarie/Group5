@@ -20,7 +20,7 @@
     </header>
     
     <main>
-        <h1>Contact Us</h1>
+        <h1>Contact Us!</h1>
         <p>I would love to hear from you! Feel free to reach out  through any of the following platforms:</p>
         
         <div class="social-media">
