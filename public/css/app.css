@@ -89,7 +89,7 @@ main.centered-content {
   justify-content: center;
   height: calc(91vh - 100px);
   text-align: center;
-  margin-top: 100px;
+  margin-top: -2px;
 }
 
 main.contact-page {
