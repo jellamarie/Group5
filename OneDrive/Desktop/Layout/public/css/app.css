@@ -1,0 +1,155 @@
+/* General styling */
+html, body {
+    height: 100%; /* Ensure the html and body take full height */
+    margin: 0;    /* Remove default margin */
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Stack elements vertically */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(184, 244, 184);
+}
+
+header {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Center align the container */
+    flex: 1; /* Allow the container to expand and take available space */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Table of contents styling */
+ul.toc {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.toc li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Contact form styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    width: 100%; /* Full width for responsiveness */
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea.input-box {
+    height: 150px;
+    resize: none;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: right; /* Aligns the text to the right */
+    position: fixed;    /* Make the navbar fixed */
+    top: 0;            /* Stick to the top */
+    left: 0;           /* Align to the left */
+    width: 100%;       /* Full width */
+    z-index: 1000;     /* Ensure it stays above other elements */
+    margin: 0;         /* Remove default margin */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for visibility */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 20px; /* Space between items */
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333; /* Match the navbar color */
+    color: white;           /* Text color */
+    text-align: center;     /* Center align text */
+    padding: 15px 0;       /* Padding for the footer */
+    width: 100%;            /* Full width */
+    margin-top: auto;            /* Full width */
+}
+
+.footer ul {
+    list-style-type: none;  /* Remove bullets */
+    padding: 0;             /* Remove default padding */
+    margin: 10px 0 0;      /* Margin above the list */
+}
+
+.footer ul li {
+    display: inline;         /* Display items inline */
+    margin: 0 10px;         /* Space between items */
+}
+
+.footer a {
+    color: white;           /* Link color */
+    text-decoration: none;  /* Remove underline */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
